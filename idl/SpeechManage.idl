@@ -1,0 +1,12 @@
+/**
+ * Filename = SpeechManage.idl
+ * 
+ **/
+module Manage {
+        typedef sequence<string> StringList;
+	interface SpeechManage {
+
+	  void read (in string systemid, in StringList speechid);
+	};
+
+};
